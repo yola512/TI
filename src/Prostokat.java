@@ -20,7 +20,7 @@ public class Prostokat {
     }
 
     public String wyswietlDane() {
-        return "Bok a = " + a + " Bok b = " + b;
+        return "Bok a = " + getA() + " Bok b = " + getB();
     }
 
     public float obliczPole() {
